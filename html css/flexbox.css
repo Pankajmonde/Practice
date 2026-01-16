@@ -1,0 +1,30 @@
+#container{
+    height: 300px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;   /* row */
+    flex-direction: row;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    align-content:flex-start;
+    align-self: flex-start;
+
+}
+h1{
+    text-align: center;
+}
+#container div{
+    height: 100px;
+    width: 50px;
+    text-align: center;
+
+}
+#red{
+    align-self: center;
+    /* flex-basis: 500px; */
+    /* flex-grow: 2;
+    flex-shrink: 1; */
+    flex: 2 2 100px;           /* flex grow  flex basis flex shrink */
+}

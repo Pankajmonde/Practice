@@ -1,0 +1,35 @@
+div{
+    height: 200px;
+    width: 300px; 
+    /* background-color: pink;
+    border-width: 5px;
+    border-color: black;
+    border-style:solid;   */
+    border: 5px black solid;
+    border-left-color: blue;
+    border-left-style: dotted;
+    border-radius: 15px;
+    border-top-right-radius: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin:20px 20px 30px 40px
+
+}
+
+h1{
+border-width:2px;
+border-style: dotted;
+border-color: green;
+}
+button{
+    border: 5px solid black;
+    border-radius: 5px;
+      /* padding-left: 24px;
+      padding-right: 20px; */
+      /* padding:1px 2px 3px 4px;
+      padding: 20px; */
+      padding: 0px 30px 0px;
+}
+

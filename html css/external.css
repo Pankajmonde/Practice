@@ -1,0 +1,63 @@
+/* element selector */
+h1{
+    color: #b92b27;
+}
+ /* id selector  used to select  */
+#login{
+    background-color: white;
+}
+#signup{
+    background-color:red;
+}
+/* class selector  */
+.follow{
+    color: red;
+}
+/* desendent selector */
+.post a{
+    color: purple;
+    background-color: yellow;
+}
+nav ul li{
+    color: pink;
+}
+/* adjucent sibling combinator */
+p+h3{
+    text-decoration: underline;
+}
+/* child combinator */
+div>input{
+    background-color: darkgoldenrod;
+}
+/* attribute selector  */
+input[type="text"]{
+color:red;
+}
+input[type="password"]{
+color:pink ;
+}
+
+/* id>class>element  */
+/* pseudo class */
+button:hover{
+    background-color: black;
+    color: green;
+}
+button:active{
+    background-color: darkblue;
+}
+input[type="radio"]:checked +label{
+    color: red;
+    font-weight: bold;
+}
+.post:nth-of-type(2n){
+    background-color: blanchedalmond;
+
+/* pseudo element  firs-letter, first-line, selection */
+}
+h1::selection{
+    background-color: rgb(239, 68, 0);
+}
+h1::first-letter{
+    background-color: green;
+}

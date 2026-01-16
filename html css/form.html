@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+</head>
+
+<body>
+  <form action="/action">
+    <!-- input element used to create multilple form controls -->
+    <label> username
+      <input type="text" placeholder="enter username" name="username">
+    </label>
+    <br>
+    <label>
+      password
+      <input type="password" placeholder="password ">
+    </label>
+    <br>
+    number
+    <input type="number">
+    <br>
+    time
+    <input type="time">
+    <br>
+    <label for="age"> age</label>
+    <input type="number" id="age" placeholder="enter age">
+    <br>
+    <button type="submit">submit</button>
+    <button type="reset">reset</button>
+    <input type="button" value="click me">
+
+    <form action="https://www.google.co.in/search?">
+
+      <input type="text" placeholder="enter serach" username="q">
+      <button>serach</button>
+
+      <input type="checkbox" id="age" name="age">
+      <label for="age"> 18 plus</label>
+
+
+    </form>
+
+  </form>
+
+  <form>
+    <div>
+      <input type="radio" name="fruit" id="apple" value="apple">
+      <label for="apple">apple</label>
+      <input type="radio" name="fruit" id="keli" value="keli">
+      <label for="keli">keli</label>
+      <input type="radio" name="fruit" id="mango" value="mango">
+      <label for="mango">mango</label>
+      <input type="radio" name="fruit" id="banana>
+        <label for=" banana">banana</label>
+      <button>submit</button>
+    </div>
+
+    <input type="checkbox" id="math" name="subject" value="math">
+    <label for="math"> math</label>
+    <input type="checkbox" id="scicnece" name="subject">
+    <label for="scicnece"> science</label>
+    <input type="checkbox" id="age" name="subject">
+    <label for="english"> english</label>
+    <button>submit</button>
+
+    <!-- drop down   -->
+    <select name="profession" id="profession">
+      <option value="student">studemt</option>
+      <option value="teacher" selected>teacher</option>
+    </select>
+    <button>submit</button>
+<br>
+    <!-- range   -->
+    <label for="voulme">select volume</label>
+    <input type="range" id="voulme" min="10" max="100" name="volume" step="10">
+    <button>submit</button>
+
+
+    <label for="feedback">submit feedback</label>
+    <textarea id="feedback" rows="10" cols="20" placeholder="write feedback hear"></textarea>
+
+
+  </form>
+</body>
+
+</html>
